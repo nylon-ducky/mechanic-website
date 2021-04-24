@@ -1,7 +1,6 @@
 #head-img {
-    
+    background-image: url("assets/mechanic-logo.png");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: 15em 15em;
-
-
 }
+
