@@ -11,9 +11,44 @@ body {
 }
 
 .jumbotron {
-    background-color: rgba(144, 238, 144,0);
+    background-color: rgba(144, 238, 144, 0);
 }
 
+#wheel {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    animation: hide 5.1s;
+    font-weight: bolder;
+    display: inline-block;
+    align-items: baseline;
+    border-bottom: 7px solid whitesmoke;
+    top: 2vh;
+    position: relative;
+     /*
+    margin-top: 2vh;
+
+
+     float: right;
+    margin-right: 18vw;
+    padding-right: 20vw;
+    padding-top: 9vh;
+    */
+}
+
+
+#container {
+    height: 18vw;
+    align-items:baseline;
+}
+
+@-webkit-keyframes reveal {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
 
 #tire {
     opacity: 1;
@@ -21,18 +56,28 @@ body {
     height: 18vw;
     margin: 1vw;
     animation: hide 5.1s, spin 550ms linear 5s infinite;
-     
+
 }
 @-webkit-keyframes hide {
-    0% { opacity: 0; }
-    99% { opacity: 0; }
-    100% {opacity: 1;}
-  }
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 @-webkit-keyframes spin {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(-360deg); }
-  }
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-360deg);
+    }
+}
 
 .animate__slideInRight {
     animation-duration: 2s;
@@ -42,6 +87,3 @@ body {
 .animate__slideInDown {
     animation-duration: 2s;
 }
-
-
-
