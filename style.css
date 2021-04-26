@@ -3,10 +3,36 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+#tire::before {
+opacity: 0;
+}
 
 #tire {
+    opacity: 1;
     width: 20vw;
     height: 20vw;
+    margin: 1vw;
+    animation: hide 5.1s, spin 550ms linear 5s infinite;
+     
+}
+@-webkit-keyframes hide {
+    0% { opacity: 0; }
+    99% { opacity: 0; }
+    100% {opacity: 1;}
+  }
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(-360deg); }
+  }
+
+.animate__slideInRight {
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+.animate__slideInDown {
+    animation-duration: 2s;
 }
 
 
