@@ -1,16 +1,24 @@
+body {
+    background-image: url("assets/ryan-de-hamer-Hy8A1dqXfdU-unsplash.jpg");
+    background-size: cover;
+}
+
 #head-img {
     background-image: url("assets/mechanic-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    color: whitesmoke;
 }
-#tire::before {
-opacity: 0;
+
+.jumbotron {
+    background-color: rgba(144, 238, 144,0);
 }
+
 
 #tire {
     opacity: 1;
-    width: 20vw;
-    height: 20vw;
+    width: 18vw;
+    height: 18vw;
     margin: 1vw;
     animation: hide 5.1s, spin 550ms linear 5s infinite;
      
@@ -34,5 +42,6 @@ opacity: 0;
 .animate__slideInDown {
     animation-duration: 2s;
 }
+
 
 

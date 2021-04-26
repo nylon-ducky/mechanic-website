@@ -8,4 +8,4 @@ document.body.appendChild(sound);
 function playAudio() {
   document.getElementById('audio').play();
 }
-document.onload = setTimeout("playAudio()", 5000);
+setTimeout("playAudio()", 5000);
