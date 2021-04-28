@@ -14,27 +14,23 @@ body {
     background-color: rgba(144, 238, 144, 0);
 }
 
+#hours {
+    animation-duration: 1.5s;
+    color: white;
+    font-weight: bold;
+
+}
 #wheel {
     font-size: 2.5rem;
     color: whitesmoke;
-    animation: hide 6.1s, reveal 1.5s linear 6s;
+    animation: hide 6.1s, reveal 1.5s linear 6s; 
     font-weight: bolder;
     display: inline-block;
     align-items: baseline;
     border-bottom: 7px solid whitesmoke;
     top: 2vh;
     position: relative;
-     /*
-    margin-top: 2vh;
-
-
-     float: right;
-    margin-right: 18vw;
-    padding-right: 20vw;
-    padding-top: 9vh;
-    */
 }
-
 
 #container {
     height: 18vw;
@@ -42,6 +38,14 @@ body {
 }
 
 @-webkit-keyframes reveal {
+    from {
+        transform: rotateY(270deg)
+    }
+    to {
+        transform: rotateY(360deg)
+    }
+}
+@keyframes reveal {
     from {
         transform: rotateY(270deg)
     }
@@ -69,8 +73,27 @@ body {
         opacity: 1;
     }
 }
+@keyframes hide {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 @-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+@keyframes spin {
     from {
         -webkit-transform: rotate(0deg);
     }
