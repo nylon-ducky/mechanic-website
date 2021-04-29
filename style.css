@@ -17,6 +17,33 @@ body {
     background-color: rgba(144, 238, 144, 0);
 }
 
+#navBar {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    display:inline-flex;
+    width: 100vw;
+    margin-bottom: 3vh;
+    
+}
+
+.nav{
+    display: inline-flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5vw 5vw;
+    color: whitesmoke; 
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+.nav:hover {
+    background-color: rgba(245, 245, 245, 0.5);
+    color: black;
+}
+
+
+
 #hours {
     animation-duration: 1.5s;
     color: whitesmoke;
@@ -38,7 +65,7 @@ body {
 }
 
 
-#hoursNav {
+#hoursList {
     display: flex;
     justify-content: space-between;
 
@@ -80,8 +107,8 @@ body {
 
 #tire {
     opacity: 1;
-    width: 16vw;
-    height: 16vw;
+    width: 18vh;
+    height: 18vh;
     margin: 1vw;
     animation: hide 5.1s, spin 550ms linear 5s infinite;
 
@@ -124,6 +151,9 @@ body {
     to {
         -webkit-transform: rotate(-360deg);
     }
+}
+.animate__fadeInDownBig {
+    animation-duration: 2s;
 }
 
 .animate__slideInRight {
