@@ -28,6 +28,7 @@ h1, #head-img, .jumbotron {
 #hours {
     padding: 5vh 25vw 10vh;
     text-align: center;
+    list-style-type: none;
 }
 
 #container {
@@ -50,11 +51,33 @@ h1, #head-img, .jumbotron {
    text-align: center;
    animation: hide 6.1s, reveal 1.5s linear 6s; 
    padding: 8vh 10vw 0;
-   font-size: 1.4rem;
+   font-size: 1.4em;
    border-bottom: .5rem solid whitesmoke;
+   width: fit-content;
+}
+
+#navBar {
+    position: absolute;
+    visibility: collapse;
+    top: 15px;
+    left: 15px;
+    color: whitesmoke;
 }
 
 
+
+.burger {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: .5px;
+    margin: 5px;
+    padding: 5px 0;
+    background-color: whitesmoke;
+    border-radius: 25%;
+    visibility: visible;
+}
 
 
 
