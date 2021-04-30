@@ -21,7 +21,7 @@ h1, #head-img, .jumbotron {
 #hoursList {
     font-size: 1.5rem;
     width: 200vw;
-    padding: 20vw;
+    padding: 20vw 20vw 2vw 20vw;
 
 }
 
@@ -29,6 +29,11 @@ h1, #head-img, .jumbotron {
     padding: 5vh 25vw 10vh;
     text-align: center;
     list-style-type: none;
+    animation-duration: 2s;;
+}
+
+#WWD {
+    animation-duration: 2s;
 }
 
 #container {
@@ -59,7 +64,7 @@ h1, #head-img, .jumbotron {
 #navBar {
     position: absolute;
     visibility: collapse;
-    top: 15px;
+    top: 30px;
     left: 15px;
     color: whitesmoke;
 }
@@ -78,7 +83,6 @@ h1, #head-img, .jumbotron {
     border-radius: 25%;
     visibility: visible;
 }
-
 
 
 
