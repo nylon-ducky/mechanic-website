@@ -1,0 +1,130 @@
+body {
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, #head-img, .jumbotron {
+    width: 200vw;
+    display: block;
+    justify-content: center;
+    background-color: transparent;
+    margin: auto;
+    background-image: url("assets/mechanic-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+
+}
+
+#hoursList {
+    font-size: 1.5rem;
+    width: 200vw;
+    padding: 20vw;
+
+}
+
+#hours {
+    padding: 5vh 25vw 10vh;
+    text-align: center;
+}
+
+#container {
+    width: 175vw;
+}
+
+#tire {
+    width: 25vh;
+    height: 25vh;
+    margin: 5vw;
+    padding: 3vw;
+    display: flex;
+    float: left;
+    animation: hide 5.1s, spin 550ms linear 5s infinite;
+}
+
+#wheel {
+   display: flex;
+   justify-content: right;
+   text-align: center;
+   animation: hide 6.1s, reveal 1.5s linear 6s; 
+   padding: 8vh 10vw 0;
+   font-size: 1.4rem;
+   border-bottom: .5rem solid whitesmoke;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes reveal {
+    from {
+        transform: rotateY(270deg)
+    }
+    to {
+        transform: rotateY(360deg)
+    }
+}
+@keyframes reveal {
+    from {
+        transform: rotateY(270deg)
+    }
+    to {
+        transform: rotateY(360deg)
+    }
+}
+
+@-webkit-keyframes hide {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes hide {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+.animate__fadeInDownBig {
+    animation-duration: 2s;
+}
+
+.animate__slideInRight {
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+.animate__slideInDown {
+    animation-duration: 2s;
+}
