@@ -63,7 +63,7 @@ h1, #head-img, .jumbotron {
 
 #navBar {
     position: absolute;
-    visibility: collapse;
+    visibility: hidden;
     top: 30px;
     left: 15px;
     color: whitesmoke;
