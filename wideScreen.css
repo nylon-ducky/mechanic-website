@@ -89,8 +89,6 @@ body {
     align-items:baseline;
 }
 
-
-
 #tire {
     opacity: 1;
     width: 18vh;
@@ -99,18 +97,13 @@ body {
     animation: hide 5.1s, spin 550ms linear 5s infinite;
 }
 
-#couponHolder {
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    margin: 10vw;
-}
-
 .coupon {
     color: rgb(0, 0, 0);
-    background-color: rgba(252, 252, 0, 0.5);
-    width: 3.5in;
-    height: fit-content;
+    background-color: rgba(252, 252, 0, 0.75);
+    width: 50vw;
+    min-width: fit-content;
+    height: 65vh;
+    min-height: fit-content;
     margin: auto;
     padding: 1.2rem;
     display: block;
@@ -131,8 +124,23 @@ body {
 }
 
 .barcode {
-    width: 60%;
-    height: 50%;
+    width: 2.5in;
+    height: 2in;
+}
+
+.carousel {
+    width: 50vw;
+    margin: 0 25vw;
+    animation: reveal 2s;
+}
+
+#pauseCarousel {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 2.5vh 25vw;
+    animation: spin 2.5s;
 }
 
 @-webkit-keyframes reveal {

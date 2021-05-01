@@ -2,7 +2,7 @@ function openNav() {
     let navBar = document.querySelector("#navBar");
 
     let screenWidth = screen.width;
-    console.log(screenWidth);
+    
 
     if (screenWidth <= 674) {
         if (navBar.style.visibility == "visible") {
