@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     height: 105vh;
+    color: whitesmoke;
 }
 
 #head-img {
@@ -141,6 +142,34 @@ body {
     text-align: center;
     margin: 2.5vh 25vw;
     animation: spin 2.5s;
+}
+
+#contact-paragraph {
+    font-size:  1.5em;
+    background:rgba(34, 33, 33, 0.2);
+    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
+    margin: 4vw;
+}
+
+p {
+    margin: 2vw;
+}
+
+#closingPara {
+    text-align: end;
+    padding: 5vh;
+}
+
+#pgBreak {
+    width: 100%;
+    height: 1vh;
+    background-color: whitesmoke;
+}
+
+mark {
+    background-color: rgba(255, 255, 255, 0.75);  
+    border-radius: 15%; 
+    
 }
 
 @-webkit-keyframes reveal {
