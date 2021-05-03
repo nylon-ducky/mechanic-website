@@ -144,6 +144,8 @@ h1, #head-img, .jumbotron {
        width: 175vw;
        text-align: center;
        margin: 6.5vw;
+       animation: reveal 1s;
+       
    }
 
    #getInTouch {
@@ -159,6 +161,7 @@ h1, #head-img, .jumbotron {
     background:rgba(34, 33, 33, 0.2);
     box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
     margin: 12vw;
+    animation-duration: 1.5s;
 }
 
 p {
