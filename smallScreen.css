@@ -140,6 +140,47 @@ h1, #head-img, .jumbotron {
        animation: spin 2.5s;
    }
 
+   #quick {
+       width: 175vw;
+       text-align: center;
+       margin: 6.5vw;
+   }
+
+   #getInTouch {
+       width: 100%;
+       text-align: center;
+       margin: 5vh auto;
+       background: transparent;
+   }
+
+   #contact-paragraph {
+    width: 175vw;
+    font-size:  1.5em;
+    background:rgba(34, 33, 33, 0.2);
+    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
+    margin: 12vw;
+}
+
+p {
+    margin: 2vw;
+}
+
+#closingPara {
+    text-align: end;
+    padding: 5vh;
+}
+
+#pgBreak {
+    width: 200%;
+    height: 1vh;
+    background-color: whitesmoke;
+}
+
+mark {
+    background-color: rgba(255, 255, 255, 0.75);  
+    border-radius: 15%; 
+    
+}
 
 @-webkit-keyframes reveal {
     from {
