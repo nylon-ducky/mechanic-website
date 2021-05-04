@@ -185,6 +185,13 @@ mark {
     
 }
 
+#contact-form {
+    width: 150vw;
+    margin: 25vw;
+    padding-bottom: 25vw;
+    text-align:center;
+}
+
 @-webkit-keyframes reveal {
     from {
         transform: rotateY(270deg)
