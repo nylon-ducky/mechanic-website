@@ -71,11 +71,42 @@
 
                 <p id="closingPara"> ~The Rad Rides Team</p>
             </div>
+
+
             <div id="pgBreak"></div>
 
 
-            <form id="contact-form">
+            <form id="contact-form" autocomplete="on" method="post">
+                <label for="fname">First Name:</label><br/>
+                <input type="text" id="fname" name="fname" placeholder="Jane" required><br/>
+
+                <label for="lname">Last Name:</label><br/>
+                <input type="text" id="lname" name="lname" placeholder="Doe" required><br/>
                 
+                <label for="phone">Phone Number:</label><br/>
+                <input type="tel" id="phone" name="phone" placeholder="555-444-5005" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br/>
+
+                <label for="email">E-mail:</label><br/>
+                <input type="email" id="email" name="email" placeholder="RadRidesStudio@gmail.com"><br/>
+
+                <label for="option">Would you prefer to be contacted by phone or E-mail?</label>
+                
+                <br/>
+                <div id="option">
+                <input type="radio" id="byphone" name="by phone" value="by phone">
+                <label for="byphone">Phone</label>
+                <input type="radio" id="byemail" name="by email" value="by email">
+                <label for="byemail">E-mail</label>
+                </div>
+                <br/>
+
+                <label for="reason">Reason for contact:</label><br/>
+                <textarea id="reason" name="reason" rows="10" cols="30"> </textarea><br/>
+
+                <input type="submit" value="Submit" name="submit" href="mailto:radridesstudio@gmail.com">
+
+
+
             </form>
             <script src="app.js"></script>
 </body>
