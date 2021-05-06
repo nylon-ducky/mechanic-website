@@ -99,6 +99,15 @@ body {
     animation: hide 5.1s, spin 550ms linear 5s infinite;
 }
 
+#admin-portal {
+    position:  absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+    bottom: -5vh;
+    left: 0;
+}
+
 .coupon {
     color: rgb(0, 0, 0);
     background-color: rgba(252, 252, 0, 0.75);
