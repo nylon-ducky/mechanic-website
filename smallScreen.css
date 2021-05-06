@@ -192,6 +192,18 @@ mark {
     text-align:center;
 }
 
+#appointment-form {
+    width: 100vw;
+    margin: 0 70vw;
+}
+
+#admin-portal {
+    position: absolute;
+    bottom: -98vh;
+    right: -95vw;
+}
+
+
 @-webkit-keyframes reveal {
     from {
         transform: rotateY(270deg)
