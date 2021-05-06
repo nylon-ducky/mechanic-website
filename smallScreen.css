@@ -201,6 +201,8 @@ mark {
     position: absolute;
     bottom: -98vh;
     right: -95vw;
+    cursor: pointer;
+    color: white;
 }
 
 
