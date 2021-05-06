@@ -99,14 +99,6 @@ body {
     animation: hide 5.1s, spin 550ms linear 5s infinite;
 }
 
-#admin-portal {
-    position:  absolute;
-    display: block;
-    margin: 0;
-    padding: 0;
-    bottom: -5vh;
-    left: 0;
-}
 
 .coupon {
     color: rgb(0, 0, 0);
@@ -192,6 +184,22 @@ mark {
     margin: 5vh 25vw;
     padding-bottom: 5vh;
     text-align:center;
+}
+
+#appointment-form {
+    width: 25vw;
+    margin: 0 auto;
+    
+    
+}
+
+#admin-portal {
+    position:  absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+    bottom: -15vh;
+    right: 1vw;
 }
 
 @-webkit-keyframes reveal {
