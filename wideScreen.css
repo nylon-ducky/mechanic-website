@@ -193,15 +193,7 @@ mark {
     
 }
 
-#admin-portal {
-    position: fixed;
-    display: block;
-    color: whitesmoke;
-    margin: 0;
-    padding: 0;
-    bottom: 0vh;
-    right: 1vw;
-}
+
 
 @-webkit-keyframes reveal {
     from {
