@@ -177,6 +177,7 @@ p {
     width: 200%;
     height: 1vh;
     background-color: whitesmoke;
+    animation-duration: 1.5s;
 }
 
 mark {
@@ -189,7 +190,9 @@ mark {
     width: 150vw;
     margin: 25vw;
     padding-bottom: 25vw;
-    text-align:center;
+    text-align: center;
+    font-size: large;
+    animation-duration: 1.5s;
 }
 
 #appointment-form {

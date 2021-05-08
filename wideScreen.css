@@ -181,9 +181,14 @@ mark {
 
 #contact-form {
     width: 50vw;
-    margin: 5vh 25vw;
+    margin: 5vh 25vw 5vw 25vw;
     padding-bottom: 5vh;
-    text-align:center;
+    padding-left: 7vw;
+    text-align: center;
+}
+
+#contact-submit {
+    display: flex; 
 }
 
 #appointment-form {

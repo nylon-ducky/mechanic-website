@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -26,86 +27,117 @@
     <title>Rad Rides Studio</title>
 </head>
 </head>
+
 <body>
-    <h1 id="head-img" class="jumbotron text-center animate__slideInDown">Manic Mechanic<br/><small>At The Rad Rides
-        Studio</small></h1>
-            <div id="navBar" class="animate__fadeInDownBig" onclick="openNav()">
-                <div class="burger"></div>
-                <div class="burger"></div>
-                <div class="burger"></div>
-                <a href="index.html" class="nav">Home</a>
-                
-                <a href="savings.html" class="nav">Savings</a>
-                
-                <a href="appointment.html" class="nav">Book An Appointment</a>
+    <h1 id="head-img" class="jumbotron text-center animate__slideInDown">Manic Mechanic<br /><small>At The Rad Rides
+            Studio</small></h1>
+    <div id="navBar" class="animate__fadeInDownBig" onclick="openNav()">
+        <div class="burger"></div>
+        <div class="burger"></div>
+        <div class="burger"></div>
+        <a href="index.html" class="nav">Home</a>
 
-                <a href="contact.html" class="nav">Contact</a>
+        <a href="savings.html" class="nav">Savings</a>
+
+        <a href="appointment.html" class="nav">Book An Appointment</a>
+
+        <a href="contact.html" class="nav">Contact</a>
+    </div>
+
+    <div id="quick">
+        <h1 id="getInTouch" class="text-center">Get in touch!</h1>
+
+        <h3 id="quickContact" class="text-center">
+            <p></p><mark><a href="tel:555-444-5005">☎️</a></mark> 555-444-5005</p>
+
+            <p><mark><a href="mailto:radridesstudio@gmail.com">📧</a></mark> RadRidesStudio@gmail.com</p>
+        </h3>
+    </div>
+
+    <div id="contact-paragraph" class="animate__backInUp text-center">
+        <p>
+            At Rad Rides Studio, you always talk to a human being, so rest assured that filling out our contact form
+            won't lead to some automated canned response. This is because we Love hearing from you! So please, go ahead
+            and tell us about any questions, comments, or concerns you may have. Or if you wanted, you can write to us
+            just to commend a staff member for providing a wonderful service, because that always makes our day!
+        </p>
+
+        <p>
+            Your thoughts are very important to us and we look forward to hearing from you. If you need to speak to
+            someone urgently please <mark><a href="tel:555-444-5005">call</a></mark> us at:<br /> 555-444-5005.
+        </p>
+
+        <p>
+            You could also <mark><a href="mailto:radridesstudio@gmail.com">E-mail</a></mark> us at:
+            RadRidesStudio@gmail.com.
+        </p>
+
+        <p>
+            Thanks so much for your time, and as always, we look forward to hearing from you!
+        </p>
+
+        <p id="closingPara"> ~The Rad Rides Team</p>
+    </div>
+
+
+    <div id="pgBreak" class="animate__backInUp"></div>
+
+
+    <form id="contact-form" class="animate__backInUp" autocomplete="on" method="post"
+        action="mailto:radridesstudio@gmail.com">
+
+        <div class="form-row">
+            <div class="col-md-5">
+                <label for="fname">First Name:</label><br />
+                <input type="text" id="fname" class="form-control" name="fname" placeholder="Jane" required><br />
             </div>
 
-            <div id="quick">
-            <h1 id="getInTouch" class="text-center">Get in touch!</h1>
+            <div class="col-md-5">
+                <label for="lname">Last Name:</label><br />
+                <input type="text" id="lname" class="form-control" name="lname" placeholder="Doe" required><br />
+            </div>
+        </div>
 
-            <h3 id="quickContact" class="text-center">
-                <p></p><mark><a href="tel:555-444-5005">☎️</a></mark> 555-444-5005</p>
-                
-                <p><mark><a href="mailto:radridesstudio@gmail.com">📧</a></mark> RadRidesStudio@gmail.com</p>
-            </h3>
+        <div class="form-row">
+            <div class="col-md-5">
+                <label for="phone">Phone Number:</label><br />
+                <input type="tel" id="phone" class="form-control" name="phone" placeholder="555-444-5005"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br />
             </div>
 
-            <div id="contact-paragraph" class="animate__backInUp text-center">
-                <p>
-                At Rad Rides Studio, you always talk to a human being, so rest assured that filling out our contact form won't lead to some automated canned response. This is because we Love hearing from you! So please, go ahead and tell us about any questions, comments, or concerns you may have. Or if you wanted, you can write to us just to commend a staff member for providing a wonderful service, because that always makes our day!
-                </p>
-
-                <p>
-                Your thoughts are very important to us and we look forward to hearing from you. If you need to speak to someone urgently please <mark><a href="tel:555-444-5005">call</a></mark> us at:<br/> 555-444-5005.
-                </p>
-
-                <p>
-                You could also <mark><a href="mailto:radridesstudio@gmail.com">E-mail</a></mark> us at: RadRidesStudio@gmail.com.
-                </p>
-
-                <p>
-                Thanks so much for your time, and as always, we look forward to hearing from you!
-                </p>
-
-                <p id="closingPara"> ~The Rad Rides Team</p>
+            <div class="col-md-5">
+                <label for="email">E-mail:</label><br />
+                <input type="email" id="email" class="form-control" name="email"
+                    placeholder="RadRidesStudio@gmail.com"><br />
             </div>
+        </div>
 
-
-            <div id="pgBreak"></div>
-
-
-            <form id="contact-form" autocomplete="on" method="post" action="mailto:radridesstudio@gmail.com">
-                <label for="fname">First Name:</label><br/>
-                <input type="text" id="fname" name="fname" placeholder="Jane" required><br/>
-
-                <label for="lname">Last Name:</label><br/>
-                <input type="text" id="lname" name="lname" placeholder="Doe" required><br/>
-                
-                <label for="phone">Phone Number:</label><br/>
-                <input type="tel" id="phone" name="phone" placeholder="555-444-5005" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br/>
-
-                <label for="email">E-mail:</label><br/>
-                <input type="email" id="email" name="email" placeholder="RadRidesStudio@gmail.com"><br/>
-
+        <div class="form-row">
+            <div class="col-md-10">
                 <label for="option">How would you prefer to be contacted?</label>
-                
-                <br/>
+
+                <br />
                 <div id="option">
-                <input type="radio" id="byphone" name="by phone" value="by phone">
-                <label for="byphone">Phone</label>
-                <input type="radio" id="byemail" name="by email" value="by email">
-                <label for="byemail">E-mail</label>
+                    <input type="radio" id="byphone" name="by phone" value="by phone">
+                    <label for="byphone">Phone</label>
+                    <input type="radio" id="byemail" name="by email" value="by email">
+                    <label for="byemail">E-mail</label>
                 </div>
-                <br/>
+                <br />
+            </div>
+        </div>
 
-                <label for="reason">Message:</label><br/>
-                <textarea id="reason" name="reason" rows="10" cols="30"> </textarea><br/>
+        <div class="form-row">
+            <div class="col-md-10">
+                <label for="reason">Message:</label><br />
+                <textarea id="reason" class="form-control" name="reason" rows="10" cols="30"> </textarea><br />
+            </div>
+        </div>
 
-                <input type="submit" value="Submit" name="submit">
+        <input type="submit" id="contact-submit" value="Submit" name="submit">
 
-            </form>
-            <script src="app.js"></script>
+    </form>
+    <script src="app.js"></script>
 </body>
+
 </html>
