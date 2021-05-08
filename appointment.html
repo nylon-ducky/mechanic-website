@@ -45,34 +45,64 @@
     </div>
 
     <form id="appointment-form" method="post" action="https://formsubmit.co/radridesstudio@gmail.com">
-        <label for="fname">First Name:</label><br />
-        <input type="text" id="fname" name="fname" placeholder="Jane" required><br />
 
-        <label for="lname">Last Name:</label><br />
-        <input type="text" id="lname" name="lname" placeholder="Doe" required><br />
+        <div class="form-row">
+            <div class="col-md-5">
+                <label for="fname">First Name:</label><br />
+                <input class="form-control" type="text" id="fname" name="fname" placeholder="Jane" required><br />
+            </div>
 
-        <label for="phone">Phone Number:</label><br />
-        <input type="tel" id="phone" name="phone" placeholder="555-444-5005" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br />
+            <div class="col-md-5">
+                <label for="lname">Last Name:</label><br />
+                <input class="form-control" type="text" id="lname" name="lname" placeholder="Doe" required><br />
+            </div>
+        </div>
 
-        <label for="email">E-mail:</label><br />
-        <input type="email" id="email" name="email" placeholder="RadRidesStudio@gmail.com"><br />
+        <div class="form-row">
+            <div class="col-md-5">
+                <label for="phone">Phone Number:</label><br />
+                <input class="form-control" type="tel" id="phone" name="phone" placeholder="555-444-5005"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br />
+            </div>
 
-        <label for="makemodel">Make & Model</label><br />
-        <input type="text" id="makemodel" name="makemodel"placeholder="Ford Festiva"><br />
+            <div class="col-md-5">
+                <label for="email">E-mail:</label><br />
+                <input class="form-control" type="email" id="email" name="email"
+                    placeholder="RadRidesStudio@gmail.com"><br />
+            </div>
+        </div>
 
-        <label for="year">Year:</label><br />
-        <input type="text" id="year" name="year" placeholder="1995"><br />
+        <div class="form-row">
+            <div class="col-md-7">
+                <label for="makemodel">Make & Model</label><br />
+                <input class="form-control" type="text" id="makemodel" name="makemodel"
+                    placeholder="Ford Festiva"><br />
+            </div>
 
-        <label for="date-picker">Choose a date and time</label><br/>
-        <input type="datetime-local" id="date-picker" name="date-picker"></input><br/>
+            <div class="col-md-3">
+                <label for="year">Year:</label><br />
+                <input class="form-control" type="text" id="year" name="year" placeholder="1995"><br />
+            </div>
+        </div>
 
-        <label for="notes">Notes:</label><br/>
-        <textarea id="notes" name="notes" rows="7" cols="23" placeholder="The more detail the better!"></textarea><br/>
+        <div class="form-row">
+            <div class="col-md-10">
+                <label for="notes">Notes:</label><br />
+                <textarea class="form-control" id="notes" name="notes" rows="7" cols="23"
+                    placeholder="The more detail the better!"></textarea><br />
+            </div>
+        </div>
 
+        <div class="form-row">
+            <div class="col-md-10">
+                <label for="date-picker">Choose a date and time</label><br />
+                <input class="form-control" type="datetime-local" id="date-picker" name="date-picker"></input><br />
+            </div>
+        </div>
         <button type="submit" value="submit">Submit</button>
 
     </form>
-    
+
     <script src="app.js"></script>
 </body>
 
