@@ -193,8 +193,10 @@ mark {
 }
 
 #appointment-form {
-    width: 100vw;
-    margin: 0 70vw;
+    width: 150%;
+    margin: 0 25vw 0 25vw;
+    padding-bottom: 3vh;
+    font-size: large;
 }
 
 
