@@ -2,7 +2,7 @@ function openNav() {
     let navBar = document.querySelector("#navBar");
 
     let screenWidth = screen.width;
-    
+
 
     if (screenWidth <= 674) {
         if (navBar.style.visibility == "visible") {
@@ -21,11 +21,8 @@ function openNav() {
     else {
         return;
     }
-    
+
 
 }
 
-function clickWheel() {
-   window.open("appointment.html", "_self");
-   
-}
+

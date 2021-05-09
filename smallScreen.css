@@ -5,7 +5,9 @@ body {
     height: 100vh;
 }
 
-h1, #head-img, .jumbotron {
+h1,
+#head-img,
+.jumbotron {
     width: 200vw;
     display: block;
     justify-content: center;
@@ -21,7 +23,7 @@ h1, #head-img, .jumbotron {
 #hoursList {
     font-size: 1.5rem;
     width: 200vw;
-    padding: 20vw 20vw 2vw 20vw;
+    padding: 20vw 20vw 2vw;
 
 }
 
@@ -29,7 +31,7 @@ h1, #head-img, .jumbotron {
     padding: 5vh 25vw 10vh;
     text-align: center;
     list-style-type: none;
-    animation-duration: 2s;;
+    animation-duration: 2s;
 }
 
 #WWD {
@@ -51,14 +53,14 @@ h1, #head-img, .jumbotron {
 }
 
 #wheel {
-   display: flex;
-   justify-content: right;
-   text-align: center;
-   animation: hide 6.1s, reveal 1.5s linear 6s; 
-   padding: 8vh 10vw 0;
-   font-size: 1.4em;
-   border-bottom: .5rem solid whitesmoke;
-   width: fit-content;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    animation: hide 6.1s, reveal 1.5s linear 6s;
+    padding: 8vh 10vw 0;
+    font-size: 1.4em;
+    border-bottom: 0.5rem solid whitesmoke;
+    width: fit-content;
 }
 
 #navBar {
@@ -86,7 +88,7 @@ h1, #head-img, .jumbotron {
     top: 0;
     left: 0;
     width: 35px;
-    height: .5px;
+    height: 0.5px;
     margin: 5px;
     padding: 5px 0;
     background-color: whitesmoke;
@@ -95,70 +97,70 @@ h1, #head-img, .jumbotron {
 }
 
 
-    .coupon {
-        color: rgb(0, 0, 0);
-        background-color: rgba(252, 252, 0, .8);
-        padding: 1.2rem;
-        text-align: center;
-        border-radius: 15px;
-        border: 5px dashed black;
-        box-shadow: 0 0 5px 5px inset whitesmoke;
-        width: 150vw;
-        min-width: fit-content;
-        height: 100vh;
-        min-height: fit-content;
-    }
+.coupon {
+    color: rgb(0, 0, 0);
+    background-color: rgba(252, 252, 0, 0.8);
+    padding: 1.2rem;
+    text-align: center;
+    border-radius: 15px;
+    border: 5px dashed black;
+    box-shadow: 0 0 5px 5px inset whitesmoke;
+    width: 150vw;
+    min-width: fit-content;
+    height: 100vh;
+    min-height: fit-content;
+}
 
-    .barcode {
-        width: 75%;
-        height: 50%;
-    }
+.barcode {
+    width: 75%;
+    height: 50%;
+}
 
-    .LGtxt {
-        color: whitesmoke;
-        font-size: 60px;
-        font-weight: bolder;
-        text-align: center;
-        
-    }
+.LGtxt {
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
 
-    .carousel {
-        width: 150vw;
-        height: 100vh;
-        margin: 25vw;
-        color: whitesmoke;
-        animation: reveal 2s;
-    }
+}
 
-   #pauseCarousel {
-       display: block;
-       font-weight: bold;
-       font-size: 1.5em;
-       text-align: center;
-       width: 150vw;
-       margin: 20vh 25vw;
-       animation: spin 2.5s;
-   }
+.carousel {
+    width: 150vw;
+    height: 100vh;
+    margin: 25vw;
+    color: whitesmoke;
+    animation: reveal 2s;
+}
 
-   #quick {
-       width: 175vw;
-       text-align: center;
-       margin: 6.5vw;
-       animation: reveal 1s;
-       
-   }
+#pauseCarousel {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    width: 150vw;
+    margin: 20vh 25vw;
+    animation: spin 2.5s;
+}
 
-   #getInTouch {
-       width: 100%;
-       text-align: center;
-       margin: 5vh auto;
-       background: transparent;
-   }
-
-   #contact-paragraph {
+#quick {
     width: 175vw;
-    font-size:  1.5em;
-    background:rgba(34, 33, 33, 0.2);
+    text-align: center;
+    margin: 6.5vw;
+    animation: reveal 1s;
+
+}
+
+#getInTouch {
+    width: 100%;
+    text-align: center;
+    margin: 5vh auto;
+    background: transparent;
+}
+
+#contact-paragraph {
+    width: 175vw;
+    font-size: 1.5em;
+    background: rgba(34, 33, 33, 0.2);
     box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
     margin: 12vw;
     animation-duration: 1.5s;
@@ -181,9 +183,9 @@ p {
 }
 
 mark {
-    background-color: rgba(255, 255, 255, 0.75);  
-    border-radius: 15%; 
-    
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15%;
+
 }
 
 #contact-form {
@@ -197,11 +199,10 @@ mark {
 
 #appointment-form {
     width: 150%;
-    margin: 0 25vw 0 25vw;
+    margin: 0 25vw;
     padding-bottom: 3vh;
     font-size: large;
 }
-
 
 
 @-webkit-keyframes reveal {
