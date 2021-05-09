@@ -195,8 +195,14 @@ mark {
     width: auto;
     margin: 0 12.5vw 0 12.5vw;
     padding-left: 10.5vw;
-    padding-bottom: 3vh;
-    
+    padding-bottom: 3vh;  
+}
+
+#apptPara {
+    font-size: large;
+    font-weight: bold;
+    background:rgba(34, 33, 33, 0.2);
+    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
 }
 
 

@@ -24,3 +24,8 @@ function openNav() {
     
 
 }
+
+function clickWheel() {
+   window.open("appointment.html", "_self");
+   
+}
