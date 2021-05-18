@@ -10,7 +10,7 @@ if(isset($_POST['submit'])) {
     $notes = $_POST['notes'];
     $datepicker = $_POST['date-picker'];
 
-    $mailto = "radridesstudio@gmail.com";
+    $mailto = "radridesstudio@yahoo.com";
     $header = $fname . " " . $lname . " Would like to book an appointment.\n\n See details below.";
 
     $content = " $fname $lname \n $phone $email \n $makemodel $year \n $notes \n preferred drop off date and time: $datepicker";
