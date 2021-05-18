@@ -16,5 +16,5 @@ if(isset($_POST['submit'])) {
     $content = " $fname $lname \n $phone $email \n $makemodel $year \n $notes \n preferred drop off date and time: $datepicker";
 
     mail($mailto, $header, $content);
-
+    
 }
