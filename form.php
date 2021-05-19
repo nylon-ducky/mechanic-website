@@ -21,4 +21,3 @@ if(isset($_POST['submit'])) {
 }
 
 echo "Sent! someone should contact you within 24 hours"
-?>
