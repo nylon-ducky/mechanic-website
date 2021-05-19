@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -36,13 +36,13 @@
     <div class="burger"></div>
     <div class="burger"></div>
     <div class="burger"></div>
-    <a href="index.html" class="nav">Home</a>
+    <a href="index.php" class="nav">Home</a>
 
-    <a href="savings.html" class="nav">Savings</a>
+    <a href="savings.php" class="nav">Savings</a>
 
-    <a href="appointment.html" class="nav">Book An Appointment</a>
+    <a href="appointment.php" class="nav">Book An Appointment</a>
 
-    <a href="contact.html" class="nav">Contact</a>
+    <a href="contact.php" class="nav">Contact</a>
   </div>
   <!-- end burger && header -->
 
@@ -99,4 +99,4 @@
   <script src="app.js"></script>
 </body>
 
-</html>
+</php>
