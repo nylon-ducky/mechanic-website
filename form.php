@@ -11,10 +11,10 @@ if(isset($_POST['submit'])) {
     $datepicker = $_POST['date-picker'];
 
     $mailto = "radridesstudio@yahoo.com";
-    $header = $fname . " " . $lname . " Would like to book an appointment.\n\n See details below.";
+    $subject = $fname . " " . $lname . " Would like to book an appointment";
 
     $content = " $fname $lname \n $phone $email \n $makemodel $year \n $notes \n preferred drop off date and time: $datepicker";
-
-    mail($mailto, $header, $content);
+    $headers = "sent with php from heroku";
+    mail($mailto, $subject, $content,$headers);
     
 }
