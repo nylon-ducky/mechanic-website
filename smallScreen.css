@@ -36,6 +36,7 @@ h1,
 
 #WWD {
     animation-duration: 2s;
+    padding: 2vw;
 }
 
 #container {
@@ -167,9 +168,7 @@ h1,
     animation-duration: 1.5s;
 }
 
-p {
-    margin: 2vw;
-}
+
 
 #closingPara {
     text-align: end;
@@ -205,6 +204,15 @@ mark {
     font-size: large;
 }
 
+#apptPara {
+    width: 200vw;
+    display: block;
+    margin: auto;
+}
+
+#apptP {
+    padding: 1vh 45vw;
+}
 
 @-webkit-keyframes reveal {
     from {
