@@ -9,10 +9,21 @@ body {
 }
 
 #head-img {
-    background-image: url("assets/mechanic-logo.png");
+    /* background-image: url("assets/mechanic-logo.png");
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     color: whitesmoke;
+}
+
+#logo-img {
+    display: block;
+    position: absolute;
+    width: 225px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    margin: .5%;
+    cursor: pointer;
 }
 
 .jumbotron {

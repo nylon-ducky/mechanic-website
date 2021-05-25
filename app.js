@@ -26,3 +26,6 @@ function openNav() {
 }
 
 
+document.getElementById("logo-img").onclick = function () {
+    window.location.href = "index.html";
+}

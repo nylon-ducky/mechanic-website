@@ -20,6 +20,10 @@ h1,
 
 }
 
+#logo-img {
+    visibility: hidden;
+}
+
 #hoursList {
     font-size: 1.5rem;
     width: 200vw;
