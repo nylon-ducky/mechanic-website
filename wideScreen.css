@@ -1,22 +1,38 @@
 body {
-    background-image: url("assets/ryan-de-hamer-Hy8A1dqXfdU-unsplash.jpg");
+   /*  background-image: url("assets/ryan-de-hamer-Hy8A1dqXfdU-unsplash.jpg");
+    background-size: cover; */
+    background-image: url("https://wallpaperaccess.com/full/1808239.jpg") ;
     background-size: cover;
     overflow-x: hidden;
     overflow-y: scroll;
-    height: 105vh;
+    height: 125vh;
     width: 100vw;
+    color: whitesmoke;
+
+}
+
+html {
+    background: rgba(34, 33, 33, 0.9);
+    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
     color: whitesmoke;
 }
 
-#head-img {
-    background-image: url("assets/mechanic-logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: whitesmoke;
+
+
+#logo-img {
+    display: block;
+    position: absolute;
+    width: 225px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    margin: .5%;
+    cursor: pointer;
 }
 
 .jumbotron {
-    background-color: rgba(144, 238, 144, 0);
+    background: rgba(34, 33, 33, 0.25);
+    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
 }
 
 #navBar {
@@ -25,7 +41,7 @@ body {
     display: inline-flex;
     width: 100vw;
     margin-bottom: 3vh;
-
+    margin-top: 1%;
 }
 
 .nav {
@@ -54,9 +70,9 @@ body {
 }
 
 #WWD {
-    color: whitesmoke;
-    background: rgba(34, 33, 33, 0.2);
+    background: rgba(34, 33, 33, 0.3);
     box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
+    color: whitesmoke;
     animation-duration: 1.5s;
     font-size: 1.5rem;
     font-weight: bold;
@@ -87,6 +103,8 @@ body {
 #container {
     height: 18vw;
     align-items: baseline;
+    background: rgba(34, 33, 33, 0.2);
+    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
 }
 
 #tire {
@@ -190,6 +208,8 @@ mark {
 }
 
 #appointment-form {
+    background: rgba(34, 33, 33, 0.3);
+    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.25);
     width: auto;
     margin: 0 12.5vw;
     padding-left: 10.5vw;
@@ -199,8 +219,8 @@ mark {
 #apptPara {
     font-size: large;
     font-weight: bold;
-    background: rgba(34, 33, 33, 0.2);
-    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
+    background: rgba(17, 17, 17, 0.35);
+    box-shadow: 0 0 10px 10px rgba(17, 17, 17, 0.27);
 }
 
 
