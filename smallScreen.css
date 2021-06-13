@@ -13,12 +13,10 @@ h1,
     justify-content: center;
     background-color: transparent;
     margin: auto;
-   /* background-image: url("assets/mechanic-logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: right;
-    */
+}
 
+#head-img > small {
+    font-size: large;
 }
 
 #logo-img {
@@ -30,21 +28,32 @@ h1,
 }
 
 #hoursList {
-    font-size: 1.5rem;
-    width: 100vw;
-    padding-right: 1.5vw;
+    text-align: left;
+    font-size: 1.25rem;
+    width: 98vw;
+    margin: auto;
+    padding-left: 0;
+}
+
+ul > h2 {
+    font-size: xx-large;
+    text-align: left;
 }
 
 #hours {
-    padding: 1vh;
-    text-align: center;
     list-style-type: none;
     animation-duration: 2s;
+    background-color: rgba(59, 58, 58, 0.808);
+    border-radius: 10px;
+    padding: 3px;
 }
 
 #WWD {
     animation-duration: 2s;
     padding: 1vw;
+    margin-top: 10vh;
+    background-color: rgba(59, 58, 58, 0.808);
+    border-radius: 10px;
 }
 
 #container {
@@ -55,8 +64,7 @@ h1,
 #tire {
     width: 15vh;
     height: 15vh;
-    margin: 1vw;
-    
+    margin: 1vw;   
     display: flex;
     float: left;
     animation: hide 5.1s, spin 550ms linear 5s infinite;
@@ -91,7 +99,6 @@ h1,
     background-color: whitesmoke;
     color: black;
     font-weight: bold;
-
 }
 
 .burger {
@@ -132,7 +139,6 @@ h1,
     font-size: 60px;
     font-weight: bolder;
     text-align: center;
-
 }
 
 .carousel {
@@ -141,6 +147,10 @@ h1,
     padding: 2.5vw;
     color: whitesmoke;
     animation: reveal 2s;
+}
+
+small {
+    font-size: xx-small;
 }
 
 #pauseCarousel {
@@ -164,8 +174,12 @@ h1,
     font-size: large; 
 }
 
-h2 > p {
-    margin: 1.5vh;
+h3 > p {
+    margin: 2vh;
+}
+mark > a {
+    color: #004b9c;
+    font-weight: bold;
 }
 
 mark {
@@ -223,6 +237,8 @@ input[type='radio'] {
     width: 100vw;
     display: block;
     margin: auto;
+    background-color: rgba(59, 58, 58, 0.808);
+    border-radius: 10px;
 }
 
 #apptP {
@@ -295,5 +311,9 @@ input[type='radio'] {
 }
 
 .animate__slideInDown {
+    animation-duration: 2s;
+}
+
+.animate__backInUp {
     animation-duration: 2s;
 }
