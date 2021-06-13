@@ -8,6 +8,10 @@ body {
     color: whitesmoke;
 }
 
+#overlay {
+    background: rgba(34, 33, 33, 0.4);
+}
+
 #head-img {
     /* background-image: url("assets/mechanic-logo.png");
     background-size: contain;
@@ -18,8 +22,8 @@ body {
 #logo-img {
     display: block;
     position: absolute;
-    width: 225px;
-    height: 250px;
+    width: 270px;
+    height: 306px;
     top: 0;
     left: 0;
     margin: .5%;
@@ -64,11 +68,16 @@ body {
 
 }
 
+#hl {
+    animation-duration: 1.5s;
+    font-size: 1.5rem;
+}
+
 #WWD {
     color: whitesmoke;
-    background: rgba(34, 33, 33, 0.2);
+   /* background: rgba(34, 33, 33, 0.2);
     box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
-    animation-duration: 1.5s;
+   */ animation-duration: 1.5s;
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 1em;
@@ -84,7 +93,7 @@ body {
 }
 
 #wheel {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: whitesmoke;
     animation: hide 6.1s, reveal 1.5s linear 6s;
     font-weight: bolder;
@@ -125,6 +134,10 @@ body {
     border: 5px dashed black;
     box-shadow: 0 0 5px 5px inset whitesmoke;
 
+}
+
+.smCoupon {
+    line-height: normal;
 }
 
 .LGtxt {
@@ -180,6 +193,7 @@ p {
     width: 100%;
     height: 1vh;
     background-color: whitesmoke;
+    animation-duration: 1.5s;
 }
 
 mark {
@@ -194,6 +208,11 @@ mark {
     padding-bottom: 5vh;
     padding-left: 7vw;
     text-align: center;
+    animation-duration: 1.5s;
+}
+
+input[type='radio'] {
+    transform: scale(1.75);
 }
 
 #contact-submit {
@@ -205,6 +224,7 @@ mark {
     margin: 0 12.5vw;
     padding-left: 10.5vw;
     padding-bottom: 3vh;
+    animation-duration: 1.5s;
 }
 
 #apptPara {
@@ -212,6 +232,7 @@ mark {
     font-weight: bold;
     background: rgba(34, 33, 33, 0.2);
     box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
+    animation-duration: 1.5s;
 }
 
 
@@ -283,3 +304,4 @@ mark {
 .animate__slideInDown {
     animation-duration: 2s;
 }
+

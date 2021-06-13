@@ -170,6 +170,7 @@ small {
     display: block;
     font-weight: bold;
     font-size: 1.5em;
+    padding-top: 4vh;
     text-align: center;
     width: 95vw;
     margin: auto;
@@ -244,6 +245,7 @@ input[type='radio'] {
     margin: auto;
     padding-bottom: 3vh;
     font-size: large;
+    animation-duration: 1.5s;
 }
 
 #apptPara {
@@ -252,6 +254,7 @@ input[type='radio'] {
     margin: auto;
     background-color: rgba(59, 58, 58, 0.808);
     border-radius: 10px;
+    animation-duration: 1.5s;
 }
 
 #apptP {
