@@ -8,31 +8,35 @@ body {
 h1,
 #head-img,
 .jumbotron {
-    width: 200vw;
+    width: 100vw;
     display: block;
     justify-content: center;
     background-color: transparent;
     margin: auto;
-    background-image: url("assets/mechanic-logo.png");
+   /* background-image: url("assets/mechanic-logo.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
+    */
 
 }
 
 #logo-img {
-    visibility: hidden;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #hoursList {
     font-size: 1.5rem;
-    width: 200vw;
-    padding: 20vw 20vw 2vw;
-
+    width: 100vw;
+    padding-right: 1.5vw;
 }
 
 #hours {
-    padding: 5vh 25vw 10vh;
+    padding: 1vh;
     text-align: center;
     list-style-type: none;
     animation-duration: 2s;
@@ -40,18 +44,19 @@ h1,
 
 #WWD {
     animation-duration: 2s;
-    padding: 2vw;
+    padding: 1vw;
 }
 
 #container {
-    width: 175vw;
+    width: 100vw;
+    padding: 2vw;
 }
 
 #tire {
-    width: 25vh;
-    height: 25vh;
-    margin: 5vw;
-    padding: 3vw;
+    width: 15vh;
+    height: 15vh;
+    margin: 1vw;
+    
     display: flex;
     float: left;
     animation: hide 5.1s, spin 550ms linear 5s infinite;
@@ -62,7 +67,6 @@ h1,
     justify-content: right;
     text-align: center;
     animation: hide 6.1s, reveal 1.5s linear 6s;
-    padding: 8vh 10vw 0;
     font-size: 1.4em;
     border-bottom: 0.5rem solid whitesmoke;
     color: white;
@@ -75,6 +79,7 @@ h1,
     top: 30px;
     left: 15px;
     color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .nav {
@@ -111,7 +116,7 @@ h1,
     border-radius: 15px;
     border: 5px dashed black;
     box-shadow: 0 0 5px 5px inset whitesmoke;
-    width: 150vw;
+    width: 90vw;
     min-width: fit-content;
     height: 100vh;
     min-height: fit-content;
@@ -131,9 +136,9 @@ h1,
 }
 
 .carousel {
-    width: 150vw;
+    width: 100vw;
     height: 100vh;
-    margin: 25vw;
+    padding: 2.5vw;
     color: whitesmoke;
     animation: reveal 2s;
 }
@@ -143,17 +148,29 @@ h1,
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
-    width: 150vw;
-    margin: 20vh 25vw;
+    width: 95vw;
+    margin: auto;
     animation: spin 2.5s;
 }
 
 #quick {
-    width: 175vw;
+    width: 95vw;
     text-align: center;
-    margin: 6.5vw;
-    animation: reveal 1s;
+    margin: auto;
+    animation: reveal 1s;   
+}
 
+#quickContact {
+    font-size: large; 
+}
+
+h2 > p {
+    margin: 1.5vh;
+}
+
+mark {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 15%;
 }
 
 #getInTouch {
@@ -164,58 +181,52 @@ h1,
 }
 
 #contact-paragraph {
-    width: 175vw;
-    font-size: 1.5em;
-    background: rgba(34, 33, 33, 0.2);
-    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
-    margin: 12vw;
+    width: 100vw;
+    font-size: 1em;
+    padding: 1.5vw;
     animation-duration: 1.5s;
 }
 
-
-
 #closingPara {
     text-align: end;
-    padding: 5vh;
+    padding: 1.5vw;
 }
 
 #pgBreak {
-    width: 200%;
+    width: 100vw;
     height: 1vh;
     background-color: whitesmoke;
     animation-duration: 1.5s;
 }
 
-mark {
-    background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 15%;
-
-}
-
 #contact-form {
-    width: 150vw;
-    margin: 25vw;
-    padding-bottom: 25vw;
+    width: 95vw;
+    margin: 2vw;
+    padding-bottom: 2.5vw;
     text-align: center;
     font-size: large;
     animation-duration: 1.5s;
 }
 
+input[type='radio'] {
+    transform: scale(1.75);
+}
+
 #appointment-form {
-    width: 150%;
-    margin: 0 25vw;
+    width: 95vw;
+    margin: auto;
     padding-bottom: 3vh;
     font-size: large;
 }
 
 #apptPara {
-    width: 200vw;
+    width: 100vw;
     display: block;
     margin: auto;
 }
 
 #apptP {
-    padding: 1vh 45vw;
+    padding: 2vw;
 }
 
 @-webkit-keyframes reveal {
