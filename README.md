@@ -7,5 +7,6 @@ This site is based on a totally fictional business and totally fictional people,
 
 Thanks for checking this out, I hope you enjoy it as much as I did!
 
-
+    This project has been deployed and can be seen here:
+    https://manicmechanic.netlify.app/
 
