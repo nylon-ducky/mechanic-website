@@ -15,9 +15,9 @@ if(isset($_POST['submit'])) {
 
     $content = " $fname $lname \n $phone $email \n $makemodel $year \n $notes \n preferred drop off date and time: $datepicker";
     $headers = "$sentfrom sent with php from heroku";
-    $sentfrom = "radridesstudio@gmail.com"
-    mail($mailto, $subject, $content,$headers);
+    $sentfrom = "radridesstudio@gmail.com";
+    mail($mailto, $subject, $content, $headers);
     
 }
 
-echo "Sent! someone should contact you within 24 hours"
+echo "Sent! someone should contact you within 24 hours";
