@@ -36,18 +36,23 @@ h1,
     padding-left: 0;
 }
 
-ul > h2 {
+#hl > h2 {
     font-size: xx-large;
     text-align: center;
 }
 
-#hours {
-    list-style-type: none;
+#hl {
     animation-duration: 2s;
     background-color: rgba(59, 58, 58, 0.808);
     border-radius: 10px;
     padding: 3px;
 }
+
+#hours {
+    list-style-type: none;
+    padding-left: 1px;
+}
+
 
 #WWD {
     animation-duration: 2s;
@@ -259,6 +264,14 @@ input[type='radio'] {
 
 #apptP {
     padding: 2vw;
+}
+
+*:focus, input:focus, input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=submit]:focus, input[type="datetime-local"]:focus, #reason:focus, #notes:focus  {
+    background-color:whitesmoke;
+    color: black;
+    font-weight: bold;
+    border: 3px solid blanchedalmond;
+    box-shadow: 0 0 5px 10px rgb(124, 124, 241);
 }
 
 @-webkit-keyframes reveal {

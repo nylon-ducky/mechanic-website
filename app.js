@@ -1,7 +1,9 @@
-function openNav() {
-    let navBar = document.querySelector("#navBar");
 
     let screenWidth = screen.width;
+    
+    function openNav() {
+    let navBar = document.querySelector("#navBar");
+
 
 
     if (screenWidth <= 674) {
@@ -24,6 +26,13 @@ function openNav() {
 
 
 }
+
+
+    if (screenWidth <= 674) {
+        let burger1 = document.querySelector("#burger1");
+        burger1.tabIndex = 1;
+    }
+
 
 
 document.getElementById("logo-img").onclick = function () {

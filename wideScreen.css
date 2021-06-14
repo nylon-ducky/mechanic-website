@@ -235,6 +235,14 @@ input[type='radio'] {
     animation-duration: 1.5s;
 }
 
+*:focus, input:focus, input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=submit]:focus, input[type="datetime-local"]:focus, #reason:focus, #notes:focus, #container:focus {
+    background-color:whitesmoke;
+    color: black;
+    font-weight: bold;
+    border: 3px solid rgb(70, 70, 240);
+    box-shadow: 0 0 5px 10px rgb(124, 124, 241);
+}
+
 
 @-webkit-keyframes reveal {
     from {
