@@ -65,19 +65,24 @@ body {
     color: whitesmoke;
     font-weight: bold;
     font-size: 1.5rem;
-
+    list-style-type: none;
+    padding-left: 0;
 }
 
 #hl {
     animation-duration: 1.5s;
     font-size: 1.5rem;
+    margin-left: 3vw;
+}
+
+#hl h2 {
+    font-size: xx-large;
+    text-align: center;
 }
 
 #WWD {
     color: whitesmoke;
-   /* background: rgba(34, 33, 33, 0.2);
-    box-shadow: 0 0 10px 10px rgba(34, 33, 33, 0.2);
-   */ animation-duration: 1.5s;
+    animation-duration: 1.5s;
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 1em;
