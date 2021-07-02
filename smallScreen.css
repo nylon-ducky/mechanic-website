@@ -8,7 +8,7 @@ body {
 h1,
 #head-img,
 .jumbotron {
-    width: 100vw;
+    width: 75vw;
     display: block;
     justify-content: center;
     background-color: transparent;
