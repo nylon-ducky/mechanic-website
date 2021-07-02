@@ -1,19 +1,15 @@
-<!DOCTYPE html
->
-<html
- lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 
-<!--    
+    <!--    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -39,92 +35,96 @@
 </head>
 
 <body>
-    <h1 id="head-img" class="jumbotron text-center animate__slideInDown">Manic Mechanic<br /><small>At The Rad Rides
-            Studio</small></h1>
+    <div id="overlay">
+        <h1 id="head-img" class="jumbotron text-center animate__slideInDown">Manic Mechanic<br /><small>At The Rad Rides
+                Studio</small></h1>
 
-            <img src="assets/mechanic-logo.png" id="logo-img" class= "animate__slideInDown" alt="our logo">
+        <img src="assets/mechanic-logo.png" id="logo-img" class="animate__slideInDown" alt="our logo">
 
-    <div id="navBar" class="animate__fadeInDownBig" onclick="openNav()" onfocus="openNav()">
-        
-        <div class="burger" tabindex="1" onfocus="openNav()"></div>
-        <div class="burger"></div>
-        <div class="burger"></div>
-        
+        <div id="navBar" class="animate__fadeInDownBig" onclick="openNav()" onfocus="openNav()">
 
-        <a href="index.html" class="nav">Home</a>
+            <div class="burger" tabindex="1" onfocus="openNav()"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
 
-        <a href="savings.html" class="nav">Savings</a>
 
-        <a href="appointment.html" class="nav">Book An Appointment</a>
+            <a href="index.html" class="nav">Home</a>
 
-        <a href="contact.html" class="nav">Contact</a>
+            <a href="savings.html" class="nav">Savings</a>
+
+            <a href="appointment.html" class="nav">Book An Appointment</a>
+
+            <a href="contact.html" class="nav">Contact</a>
+        </div>
+
+        <div id="apptPara" class="animate__backInUp">
+            <h2 class="text-center">Book An Appointment!</h2>
+            <p id="apptP" class="text-center">Just fill out the form below and drop your car off at a time of your
+                choosing.
+            </p>
+        </div>
+
+        <form id="appointment-form" class="animate__backInUp" method="post"
+            action="https://formsubmit.co/radridesstudio@gmail.com">
+            <!-- https://formsubmit.co/radridesstudio@gmail.com -->
+
+            <div class="form-row">
+                <div class="col-md-5">
+                    <label for="fname">First Name:</label><br />
+                    <input class="form-control" type="text" id="fname" name="fname" placeholder="Jane" required><br />
+                </div>
+
+                <div class="col-md-5">
+                    <label for="lname">Last Name:</label><br />
+                    <input class="form-control" type="text" id="lname" name="lname" placeholder="Doe" required><br />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-5">
+                    <label for="phone">Phone Number:</label><br />
+                    <input class="form-control" type="tel" id="phone" name="phone" placeholder="555-444-5005"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br />
+                </div>
+
+                <div class="col-md-5">
+                    <label for="email">E-mail:</label><br />
+                    <input class="form-control" type="email" id="email" name="email"
+                        placeholder="RadRidesStudio@gmail.com"><br />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-7">
+                    <label for="makemodel">Make & Model</label><br />
+                    <input class="form-control" type="text" id="makemodel" name="makemodel"
+                        placeholder="Ford Festiva"><br />
+                </div>
+
+                <div class="col-md-3">
+                    <label for="year">Year:</label><br />
+                    <input class="form-control" type="text" id="year" name="year" placeholder="1995"><br />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-10">
+                    <label for="notes">Notes:</label><br />
+                    <textarea class="form-control" id="notes" name="notes" rows="7" cols="23"
+                        placeholder="The more detail the better!"></textarea><br />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-10">
+                    <label for="date-picker">Choose a date and time</label><br />
+                    <input class="form-control" type="datetime-local" id="date-picker" name="date-picker"></input><br />
+                </div>
+            </div>
+            <button type="submit" name="submit" value="submit">Submit</button>
+
+        </form>
     </div>
-
-    <div id="apptPara" class="animate__backInUp">
-    <h2 class="text-center">Book An Appointment!</h2>
-    <p id="apptP" class="text-center">Just fill out the form below and drop your car off at a time of your choosing.
-    </p>
-    </div>
-
-    <form id="appointment-form" class="animate__backInUp" method="post" action="https://formsubmit.co/radridesstudio@gmail.com"> <!-- https://formsubmit.co/radridesstudio@gmail.com -->
-
-        <div class="form-row">
-            <div class="col-md-5">
-                <label for="fname">First Name:</label><br />
-                <input class="form-control" type="text" id="fname" name="fname" placeholder="Jane" required><br />
-            </div>
-
-            <div class="col-md-5">
-                <label for="lname">Last Name:</label><br />
-                <input class="form-control" type="text" id="lname" name="lname" placeholder="Doe" required><br />
-            </div>
-        </div>
-
-        <div class="form-row">
-            <div class="col-md-5">
-                <label for="phone">Phone Number:</label><br />
-                <input class="form-control" type="tel" id="phone" name="phone" placeholder="555-444-5005"
-                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br />
-            </div>
-
-            <div class="col-md-5">
-                <label for="email">E-mail:</label><br />
-                <input class="form-control" type="email" id="email" name="email"
-                    placeholder="RadRidesStudio@gmail.com"><br />
-            </div>
-        </div>
-
-        <div class="form-row">
-            <div class="col-md-7">
-                <label for="makemodel">Make & Model</label><br />
-                <input class="form-control" type="text" id="makemodel" name="makemodel"
-                    placeholder="Ford Festiva"><br />
-            </div>
-
-            <div class="col-md-3">
-                <label for="year">Year:</label><br />
-                <input class="form-control" type="text" id="year" name="year" placeholder="1995"><br />
-            </div>
-        </div>
-
-        <div class="form-row">
-            <div class="col-md-10">
-                <label for="notes">Notes:</label><br />
-                <textarea class="form-control" id="notes" name="notes" rows="7" cols="23"
-                    placeholder="The more detail the better!"></textarea><br />
-            </div>
-        </div>
-
-        <div class="form-row">
-            <div class="col-md-10">
-                <label for="date-picker">Choose a date and time</label><br />
-                <input class="form-control" type="datetime-local" id="date-picker" name="date-picker"></input><br />
-            </div>
-        </div>
-        <button type="submit" name="submit" value="submit">Submit</button>
-
-    </form>
-
 </body>
 
 </html>
