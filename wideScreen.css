@@ -10,20 +10,19 @@ body {
 
 #overlay {
     background: rgba(34, 33, 33, 0.4);
+    
 }
 
 #head-img {
-    /* background-image: url("assets/mechanic-logo.png");
-    background-size: contain;
-    background-repeat: no-repeat; */
+    
     color: whitesmoke;
 }
 
 #logo-img {
     display: block;
     position: absolute;
-    width: 270px;
-    height: 306px;
+    width: 225px;
+    height: 255px;
     top: 0;
     left: 0;
     margin: .5%;
@@ -38,6 +37,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     color: whitesmoke;
     display: inline-flex;
+  
     width: 100vw;
     margin-bottom: 3vh;
 
